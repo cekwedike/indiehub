@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie Hub - Register</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Indie Hub</h1>
+        <nav>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Register</h2>
+        <form class="form">
+            <label for="name">Name:</label>
+            <input type="text" class="input" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" class="input" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" class="input" id="password" name="password" required>
+            
+            <label for="role">Role:</label>
+            <select id="role" class="input" name="role" required>
+                <option value="Artist">Artist</option>
+                <option value="Mentor">Mentor</option>
+                <option value="Buyer">Buyer</option>
+            </select>
+            
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
