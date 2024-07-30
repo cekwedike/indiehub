@@ -8,8 +8,9 @@ body {
 
 header {
     background-color: #222; /* Slightly lighter shade for the header */
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    min-height: 7rem;
 }
 
 nav ul {
