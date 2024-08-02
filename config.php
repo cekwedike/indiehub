@@ -6,5 +6,5 @@ define('DB_PASS', '');
 
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_PORT', 587);
-define('SMTP_USER', 'c.ekwedike@alustudent.com');
-define('SMTP_PASS', 'ChidiebereEkwedike_1206');
+define('SMTP_USER', 'xxxxxxxxxxxxxx'); // email removed due to privacy
+define('SMTP_PASS', 'xxxxxxxxxxxx'); //password removed due to privacy
