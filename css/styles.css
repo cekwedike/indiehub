@@ -217,4 +217,99 @@ input, select, button {
   .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
     background-color: #ff0000;
   }
-  
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #2e0f0f;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #260e0e;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #d62828;
+}
+
+main {
+  padding: 20px;
+}
+
+.home-section {
+  display: none;
+}
+
+.home-section.active {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #260e0e;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+/* For small screens (e.g., mobile) */
+@media only screen and (max-width: 600px) {
+  .artist-home-page img {
+    width: 100%; /* or 90vw, etc. */
+    height: auto;
+  }
+}
+
+/* For medium screens (e.g., tablet) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .artist-home-page img {
+    width: 75%; /* or 60vw, etc. */
+    height: auto;
+  }
+}
+
+/* For large screens (e.g., desktop) */
+@media only screen and (min-width: 901px) {
+  .artist-home-page img {
+    width: 50%; /* or 40vw, etc. */
+    height: auto;
+  }
+}
